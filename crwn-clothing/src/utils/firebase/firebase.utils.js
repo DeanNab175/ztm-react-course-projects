@@ -10,11 +10,12 @@ import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: "crwn-clothing-db-af47e.firebaseapp.com",
-  projectId: "crwn-clothing-db-af47e",
-  storageBucket: "crwn-clothing-db-af47e.appspot.com",
+  authDomain: "crwn-clothing-shop-db-30f4d.firebaseapp.com",
+  projectId: "crwn-clothing-shop-db-30f4d",
+  storageBucket: "crwn-clothing-shop-db-30f4d.firebasestorage.app",
   messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
   appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MESUREMENT_ID,
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
